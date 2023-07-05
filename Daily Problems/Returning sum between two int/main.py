@@ -20,11 +20,17 @@ def get_sum(a,b):
         return sum(x)
     elif a > b:
         y = []
-        for i in range(a+1, b):
+        for i in range(b, a+1):
             y.append(i)
         return sum(y)
+    elif a == b:
+        return a 
 
 #Example usecase
 
 q = get_sum(1, 0)
 print(q)
+
+# I got tricked by this question. 
+# I tried solving this many times. 
+# I am glad I could solve it.
