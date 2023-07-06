@@ -8,3 +8,9 @@ vfsf.png --> 2.png
 this.png --> 3.png
 design.png --> 4.png
 name.png --> 5.png"""
+
+import os
+
+for file in os.listdir("Weekly Problems\Clear the clutter"):
+    if file.endswith(.png):
+        file.rename('')
