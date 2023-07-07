@@ -23,3 +23,7 @@ def xo(s):
 
 a = xo('xooxxx')
 print(a)
+
+#I learned how to make any string case insensitive. 
+#It is by using .lower() function to make all chars lowers
+#and it applies same for every char of str.  
