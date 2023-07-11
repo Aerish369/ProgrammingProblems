@@ -13,3 +13,5 @@ def string_to_array(s):
 
 # Example usecase
 print(string_to_array('Robin Chan is cutie'))
+
+#useless
