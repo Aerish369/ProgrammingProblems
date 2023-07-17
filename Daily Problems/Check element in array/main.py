@@ -14,3 +14,9 @@ def check(seq, elem):
 print(check([1, 2, 3, 4], 5)) # Output False as 5 is not in the user given array.
 
 print(check([1, 2, 3, 4], 3)) # Output True as 3 is in the user given array.
+
+
+#! Pythonic way to execute the function
+
+#! def check(seq, elem):
+#!  return elem in seq
