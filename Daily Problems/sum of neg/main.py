@@ -21,3 +21,9 @@ def count_positives_sum_negatives(arr):
             if i > 0:
                 positive += 1
     return [positive, sum(negative)]
+
+#! Example usecase::
+
+i = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]
+
+print(count_positives_sum_negatives(i))
