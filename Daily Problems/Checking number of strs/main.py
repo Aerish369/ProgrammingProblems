@@ -14,14 +14,17 @@
 def xo(s):
     num_x = s.lower().count('x')
     num_o = s.lower().count('o')
-    if (num_x == num_o):
-        return True
-    else:
-        return False
+    return num_x == num_o #! Alternative way with less code
+
+    #? This is usual method. It is replaced by the code in line 17.
+        # if (num_x == num_o):
+        #     return True
+        # else:
+        #     return False
     
 #Example usecase:
 
-a = xo('xooxxx')
+a = xo('xOoooxXXxO')
 print(a)
 
 #I learned how to make any string case insensitive. 
