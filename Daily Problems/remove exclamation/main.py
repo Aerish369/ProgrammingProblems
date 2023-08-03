@@ -6,4 +6,6 @@ def removeexclamtn(s):
     return s.replace('!', '')
 
 
+#* Example usecase:
+
 print(removeexclamtn("!!YOYO Bantai Rapper!!!"))
