@@ -24,4 +24,7 @@ def likes(names):
     else:
         return f'{names[0]}, {names[1]} and {len(names) - 2} others like this'
 
-print(likes(['Aerish', 'Alex']))
+
+like = ['Alex', 'Aerish', 'Ayush', 'Hera', 'Pabs', 'Sagar', 'Abhishek']
+
+print(likes(like))

@@ -8,4 +8,4 @@ def removeexclamtn(s):
 
 #* Example usecase:
 
-print(removeexclamtn("!!YOYO Bantai Rapper!!!"))
+print(removeexclamtn("!!YOYO Bantai !Rapper!!!"))
