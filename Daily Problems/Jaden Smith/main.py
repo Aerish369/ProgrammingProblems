@@ -24,6 +24,12 @@ def to_jaden_case(string):
     return ' '.join(result)
 
 
+#! A sneaky a bit odd to read version of the solution
+def second(string):
+    return " ".join([x.capitalize() for x in string.split(" ")])
+
+
 #* Example Usecase:
 
 print(to_jaden_case("How can mirrors be real if our eyes aren't real"))
+print(second("How can mirrors be real if our eyes aren't real"))
