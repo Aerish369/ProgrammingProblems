@@ -16,9 +16,9 @@
 #!Code::
 
 def to_jaden_case(string):
-    spit = string.split(" ")
+    # spit = string.split(" ")
     result = []
-    for i in spit:
+    for i in string.split(" "):
         j = i.capitalize()
         result.append(j)
     return ' '.join(result)
@@ -33,3 +33,4 @@ def second(string):
 
 print(to_jaden_case("How can mirrors be real if our eyes aren't real"))
 print(second("How can mirrors be real if our eyes aren't real"))
+
